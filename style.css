@@ -1,0 +1,46 @@
+
+.container 
+{
+        width: 400px;
+        height: 400px;
+        position: relative;
+        margin: 4rem auto;
+        background: rgb(71, 71, 71);
+        border-radius: 50%;
+        border: 5px solid rgb(102, 102, 102);
+       
+}
+
+.box {
+    background: rgb(179, 230, 60);
+    width: 170px;
+    height: 5px;
+    border-radius: 10px;
+    margin: 200px auto;
+    transition: transform linear;
+    transform-origin: center left;
+    transform-style: preserve-3D;
+    position: absolute;
+    left: 50%;
+  }
+
+  .box1 {
+
+    background-color: rgb(101, 189, 0);
+
+    z-index: 2;
+    width: 120px;
+    height: 6px;
+  }
+
+  .box2 {
+
+    background-color: rgb(72, 128, 0);
+
+    z-index: 6;
+    width: 90px;
+    height: 9px;
+  }
+  
+  
+  
